@@ -1,0 +1,41 @@
+body {
+    margin: 10% 20%;
+    border: 2px solid #333333;
+}
+
+.data-images {
+    object-fit: cover;
+    padding: 20px;
+}
+
+.my-images {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 18px;
+    background: rgb(20, 83, 146);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.my-effect {
+    font-weight: normal;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+    body {
+        margin: 0;
+        border: 0px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
